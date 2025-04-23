@@ -30,8 +30,9 @@ const Header = () => {
       {/*for desktop view */}
       <div className="flex items-center justify-between">
         <Link to={""}>
-          <div className="h-10">
-            <img src={logo} alt = 'company logo'className="h-full" />
+          <div className="h-10 justify-center items-center flex gap-2 font-extrabold text-3xl text-slate-900"> 
+            {/* <img src={logo} alt = 'company logo'className="h-full" /> */}
+            <h2>Gaurav Store</h2>
           </div>
         </Link>
         {/*desktop navigation bar*/}

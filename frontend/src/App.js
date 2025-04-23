@@ -4,6 +4,7 @@ import  { Toaster } from 'react-hot-toast';
 import { useEffect } from 'react';
 import { setDataProduct } from './redux/productSlice.js';
 import { useDispatch, useSelector } from 'react-redux';
+import Footer from './component/Footer.js';
 
 //This is the index file
 
@@ -25,9 +26,10 @@ function App() {
       <Toaster />
       <div className="">
         <Header />
-        <main className="pt-14 bg-slate-100 min-h-[calc(100vh)]">
+        <main className="pt-14 bg-slate-100 min-h-[calc(100vh-3.5rem)]">
           <Outlet />
         </main>
+        <Footer/>
       </div>
     </>
   );

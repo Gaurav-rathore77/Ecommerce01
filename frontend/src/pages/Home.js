@@ -42,13 +42,13 @@ const Home = () => {
           </div>
           <h2 className="text-4xl md:text-7xl font-bold py-3">
             Fastest Delivery Store in{" "}
-            <span className="text-red-500">Thika Area</span>
+            <span className="text-red-500">nangloi</span>
           </h2>
           <p className="py-3 text-base">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+          Nanloi mein Gaurav ki Food Delivery App
+Gaurav ki food delivery app Nanloi ke logon ke liye ek nayi suvidha lekar aayi hai. Ab ghar baithe hi taja aur swadisht khana milna aasaan ho gaya hai. Chahe chhole bhature ho ya momo, ya fir ghar jaisa dal-chawal — sab kuch aapke mobile par sirf ek click door.
+
+Yeh app local restaurants aur street food vendors ke saath milkar kaam karti hai, taaki aapko mil sake asli taste, bina kisi jhanjhat ke. Fast delivery, real-time tracking, aur easy payment options ke saath, Gaurav ki app Nanloi ki har gali tak khana pahunchati hai.
           </p>
           <button className="bg-red-400 text-slate-100 font-bold px-4 py-2 rounded-md">
             Order Now
